@@ -5,93 +5,109 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:contentDescription="@string/riskia_app_name"
+    android:contentDescription="@string/riskianaomi_app_name"
     tools:context=".DetailActivity">
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:paddingBottom="50dp">
         <ImageView
-            android:id="@+id/dinosaurusriskia_icon_riskia"
+            android:id="@+id/dinosaurus_icon_riskia"
             android:layout_width="120dp"
             android:layout_height="120dp"
             android:layout_marginTop="16dp"
-            android:contentDescription="@string/info_sm_icon"
-            android:src="@drawable/ceratopsia"
+            android:contentDescription="info_dinosaurus_icon"
+            android:src="@drawable/ankylosauria"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
             tools:ignore="ImageContrastCheck" />
         <TextView
-            android:id="@+id/dinosaurusriskia_name_riskia"
+            android:id="@+id/dinosaurus_name_riskianaomi"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/info_sm_name"
+            android:text="info_dinosaurus_name"
             android:textSize="24sp"
             android:textStyle="bold"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf=
-                "@+id/dinosaurusriskia_icon_riskia" />
+                "@+id/dinosaurusgroup_icon_riskianaomi"
+            tools:ignore="UnknownId" />
+
         <TextView
-            android:id="@+id/dinosaurusriskia_desc_riskia"
+            android:id="@+id/dinosaurus_desc_riskianaomi"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_marginStart="16dp"
-            android:layout_marginTop="8dp"
+            android:layout_marginTop="108dp"
             android:layout_marginEnd="16dp"
-            android:text="@string/info_sm_desc"
+            android:text="info_dinosaurus_desc"
             android:textAlignment="textStart"
             android:textSize="16sp"
             app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf=
-                "@+id/dinosaurusriskia_name_riskia" />
+            app:layout_constraintTop_toBottomOf="@+id/dinosaurus_name_riskianaomi" />
 
         <TextView
-            android:id="@+id/dinosaurusriskia_karakteristik"
-            android:layout_width="wrap_content"
+            android:id="@+id/dinosaurus_periode_riskianaomi"
+            android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:layout_marginTop="16dp"
-            android:text="Karakteristik fisik Dino"
-            app:layout_constraintTop_toBottomOf="@+id/dinosaurusriskia_desc_riskia"
-            tools:ignore="MissingConstraints"
-            tools:layout_editor_absoluteX="16dp" />
-
-        <TextView
-            android:id="@+id/dinosaurusriskia_Periodehidup"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Periode hidup Dino"
-            app:layout_constraintBottom_toBottomOf="parent"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="140dp"
+            android:layout_marginEnd="16dp"
+            android:text="info_dinosaurus_periode"
+            android:textAlignment="textStart"
+            android:textSize="16sp"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.849"
+            app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/dinosaurusriskia_desc_riskia"
-            app:layout_constraintVertical_bias="0.15" />
+            app:layout_constraintTop_toBottomOf="@+id/dinosaurus_name_riskianaomi" />
 
         <TextView
-            android:id="@+id/dinosaurusriskia_habitat"
-            android:layout_width="wrap_content"
+            android:id="@+id/dinosaurus_Car_riskianaomi"
+            android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:layout_marginTop="18dp"
-            android:text="Habitat dan Lingkungan Dino"
-            app:layout_constraintBottom_toBottomOf="parent"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="172dp"
+            android:layout_marginEnd="16dp"
+            android:text="info_dinosaurus_car"
+            android:textAlignment="textStart"
+            android:textSize="16sp"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.043"
+            app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/dinosaurusriskia_karakteristik"
-            app:layout_constraintVertical_bias="0.0" />
+            app:layout_constraintTop_toBottomOf="@+id/dinosaurus_name_riskianaomi" />
 
         <TextView
-            android:id="@+id/dinosaurusriskia_makanan"
-            android:layout_width="70dp"
-            android:layout_height="27dp"
-            android:layout_marginEnd="72dp"
-            android:text="Perilaku dan Lingkungan"
+            android:id="@+id/dinosaurus_Hab_riskianaomi"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="204dp"
+            android:layout_marginEnd="16dp"
+            android:text="info_dinosaurus_hab"
+            android:textAlignment="textStart"
+            android:textSize="16sp"
             app:layout_constraintEnd_toEndOf="parent"
-            tools:layout_editor_absoluteY="251dp" />
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/dinosaurus_name_riskianaomi" />
 
-
+        <TextView
+            android:id="@+id/dinosaurus_Per_riskianaomi"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="236dp"
+            android:layout_marginEnd="16dp"
+            android:text="info_dinosaurus_per"
+            android:textAlignment="textStart"
+            android:textSize="16sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/dinosaurus_name_riskianaomi" />
     </androidx.constraintlayout.widget.ConstraintLayout>
 </ScrollView>

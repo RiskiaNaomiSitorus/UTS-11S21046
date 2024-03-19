@@ -15,3 +15,4 @@ dependencyResolutionManagement {
 
 rootProject.name = "Dino Pedia"
 include(":app")
+ 

@@ -1,9 +1,10 @@
 package com.ifs21046.dinopedia
 
 import android.os.Build
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.MenuItem
+import androidx.appcompat.app.AppCompatActivity
+import com.ifs21046.dinopedia.databinding.ActivityDetailBinding
 
 class DetailActivity : AppCompatActivity() {
     private lateinit var binding: ActivityDetailBinding
@@ -24,7 +25,7 @@ class DetailActivity : AppCompatActivity() {
         supportActionBar?.setDisplayHomeAsUpEnabled(true)
 
         if (group != null) {
-            supportActionBar?.title = "Kelompok ${group!!.namefamili}"
+            supportActionBar?.title = "Kelompok ${group!!.name}"
             loadData(group!!)
         } else {
             finish()
@@ -32,12 +33,13 @@ class DetailActivity : AppCompatActivity() {
     }
 
     private fun loadData(group: Group) {
-        binding.dinosaurusriskiaIconRiskia.setImageResource(group.icon)
-        binding.dinosaurusriskiaNameRiskia.text = group.namefamili
-        binding.dinosaurusriskiaDescRiskia.text = group.description
-        binding.dinosaurusriskiaPeriodehidup.text = group.periodehidup
-        binding.dinosaurusriskiaKarakteristik.text = group.karakteristikfisik
-        binding.dinosaurusriskiaHabitat.text = group.habitatdanlingkungan
+        binding.dinosaurusIconRiskia.setImageResource(group.icon)
+        binding.dinosaurusNameRiskianaomi.text = group.name
+        binding.dinosaurusDescRiskianaomi.text = group.description
+        binding.dinosaurusPerRiskianaomi.text = group.periodehidup
+        binding.dinosaurusCarRiskianaomi.text = group.perilakudanklasifikasi
+        binding.dinosaurusHabRiskianaomi.text = group.habitatdanlingkungan
+        binding.dinosaurusPerRiskianaomi.text = group.perilakudanklasifikasi
     }
 
     override fun onOptionsItemSelected(item: MenuItem): Boolean {
@@ -52,8 +54,4 @@ class DetailActivity : AppCompatActivity() {
     companion object {
         const val EXTRA_GROUP = "extra_group"
     }
-}
-
-interface ActivityDetailBinding {
-
 }

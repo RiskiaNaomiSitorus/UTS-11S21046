@@ -1,3 +1,81 @@
 <resources>
-    <string name="app_name">Dino Pedia</string>
+    <string name="riskianaomi_app_name">Dinosaurus</string>
+    <string name="info_riskianaomi_icon">Ikon SM</string>
+    <string name="info_riskianaomi_name">Nama Group</string>
+    <string name="info_riskianaomi_desc">Deskripsi</string>
+    <string name="info_riskianaomi_per">Periode Hidup</string>
+    <string name="info_riskianaomi_kar">karakteristikfisik</string>
+    <string name="info_riskianaomi_hub">habitatdanlingkungan</string>
+    <string name="info_riskianaomi_periode">perilakudanklasifikasi</string>
+    <string name="ifs21046">ifs21046</string>
+    <string name="riskianaomi">Riskia Naomi Sitorus</string>
+    <string name="riskianaomi_about">About</string>
+
+    <string-array name="riskianaomi_name">
+        <item>Ankylosaria</item>
+        <item>Ceratopsia</item>
+        <item>Marginocephalia</item>
+        <item>Sauropodomorpha</item>
+        <item>Ornithopoda</item>
+        <item>Sauropoda</item>
+        <item>Thropoda</item>
+        <item>Therizinosauria</item>
+    </string-array>
+
+    <string-array name="dinosaurus_icon">
+        <item>@drawable/ankylosauria</item>
+        <item>@drawable/ceratopsia</item>
+        <item>@drawable/marginocephalia</item>
+        <item>@drawable/ornithopoda</item>
+        <item>@drawable/sauropodomorpha</item>
+        <item>@drawable/sauropoda</item>
+        <item>@drawable/theropoda</item>
+        <item>@drawable/therizinosauria</item>
+    </string-array>
+
+    <string-array name="dinosaurus_description">
+        <item>Ankylosauria is a group of herbivorous dinosaurs that are part of the clade Ornithischia. They are known for their armor, which consists of bony osteoderms similar to turtles. Ankylosaurs were bulky quadrupeds with short, powerful limbs. They first appeared in the Middle Jurassic and persisted until the end of the Cretaceous.</item>
+        <item>Ceratopsia is a group of herbivorous dinosaurs that lived during the Late Cretaceous period. They are characterized by their distinctive head crests, which were made up of bony plates and spikes. The name "ceratopsia" is derived from the Greek words (keras), meaning "horn," and (sauros), meaning "lizard."</item>
+        <item>Marginocephalia is a clade of ornithischian dinosaurs that lived during the Late Jurassic and Cretaceous periods. The name "Marginocephalia" is derived from the Latin words "margo," meaning "margin," and "cephalus, meaning "head." This name refers to the distinctive bony frill that is present in many members of this group.</item>
+        <item>Ornithopoda is a group of bird-hipped dinosaurs that started out as small, bipedal running grazers and grew in size and numbers until they became one of the most successful groups of herbivores in the Cretaceous world, dominating the North American landscape. They are characterized by their bird-like feet, with three toes. Ornithopods lacked body armor and developed a horny beak, an elongated pubis that eventually extended past the ilium, and a missing hole in the lower jaw.</item>
+        <item>Sauropodomorpha is a group of herbivorous dinosaurs characterized by their distinctive morphological features, especially in terms of body anatomy. Sauropodomorpha represents an intriguing and important group of dinosaurs in \n our understanding of Earth\'s history. They have been the subject of intensive study by scientists aiming to comprehend \n the evolution and adaptation of living organisms in various environments.</item>
+        <item>Sauropoda is a suborder of long-necked, herbivorous dinosaurs that lived during the Mesozoic Era, specifically during the Jurassic and Cretaceous periods. They are best known for their enormous size, with some species being the largest land animals to have ever existed. Their immense size and unique adaptations make them fascinating subjects of study in paleontology and evolutionary biology.</item>
+        <item>Theropoda is a diverse group of bipedal, carnivorous dinosaurs that lived during the Mesozoic Era, from the Late Triassic to the end of the Cretaceous period. They are one of the three main groups of dinosaurs, along with Sauropodomorpha and Ornithischia.  They include some of the most iconic dinosaurs, such as Velociraptor, Allosaurus, and of course, Tyrannosaurus rex.</item>
+        <item>Therizinosauria is a unique group of theropod dinosaurs characterized by their unusual anatomy, which includes a combination of features typically found in both carnivorous and herbivorous dinosaurs. Therizinosaurs represent a fascinating example of evolutionary convergence, where unrelated groups of animals evolve similar characteristics in response to similar ecological pressures. Despite their initially puzzling combination of features, ongoing research continues to shed light on the evolutionary history and biology of these enigmatic dinosaurs.</item>
+    </string-array>
+
+
+    <string-array name="dinosaurus_periodehidup">
+        <item>Ankylosauria, Periode hidup mereka umumnya berada dari pertengahan Jura hingga akhir Kretaseus, kira-kira sekitar 165 hingga 66 juta tahun yang lalu. </item>
+        <item>Ceratopsia, Mereka berkembang pada masa akhir Jura hingga Kretaseus, kira-kira antara 161 hingga 66 juta tahun yang lalu.</item>
+        <item>Marginocephalia, Kelompok ini hidup dari akhir Jura hingga Kretaseus, sekitar 161 hingga 66 juta tahun yang lalu.</item>
+        <item>Sauropodomorpha, Mereka muncul di awal Jura dan bertahan hingga akhir Kretaseus, sekitar 201 hingga 66 juta tahun yang lalu.</item>
+        <item>Ornithopoda, Mereka hidup dari pertengahan Jura hingga akhir Kretaseus, kira-kira 161 hingga 66 juta tahun yang lalu.</item>
+        <item>Sauropoda, Periode kehidupan mereka berkisar dari akhir Jura hingga akhir Kretaseus, sekitar 161 hingga 66 juta tahun yang lalu.</item>
+        <item>Theropoda, Mereka hadir dari akhir Trias hingga akhir Kretaseus, sekitar 230 hingga 66 juta tahun yang lalu.</item>
+        <item>Therizinosauria, Muncul pada masa akhir Jura hingga akhir Kretaseus, sekitar 161 hingga 66 juta tahun yang lalu.</item>
+    </string-array>
+
+    <string-array name="dinosaurus_habitatdanlingkungan">
+        <item>Ankylosauria: Ankylosauria umumnya hidup di dataran rendah dan padang rumput serta daerah-daerah yang lebih terbuka. Mereka sering ditemukan di wilayah yang kering atau semi-kering. Habitat mereka termasuk dataran, hutan, dan dataran banjir.</item>
+        <item>Ceratopsia: Dinosaurs ceratopsian seperti Triceratops dan Protoceratops biasanya ditemukan di daerah dataran rendah, lembah sungai, dan dataran banjir yang subur. Mereka juga dapat menghuni hutan-hutan dataran rendah yang cukup luas.</item>
+        <item>Marginocephalia: Marginocephalia, yang mencakup Pachycephalosauria dan Ceratopsia, umumnya ditemukan di berbagai habitat, termasuk hutan-hutan dataran rendah, daerah lembah sungai, dan dataran banjir yang luas.</item>
+        <item>Sauropodomorpha: Sauropodomorpha, seperti Brachiosaurus dan Diplodocus, mendiami berbagai lingkungan, termasuk hutan-hutan dataran rendah, daerah rawa-rawa, dan dataran banjir. Mereka cenderung menghuni daerah-daerah dengan vegetasi yang melimpah dan air yang cukup.</item>
+        <item>Ornithopoda: Dinosaurs ornithopoda, seperti Hadrosaurus dan Iguanodon, sering ditemukan di dataran banjir, daerah lembah sungai, dan padang rumput yang subur. Mereka juga dapat menghuni hutan-hutan dataran rendah dan daerah rawa-rawa.</item>
+        <item>Sauropoda: Sauropoda umumnya ditemukan di habitat-habitat yang mirip dengan Sauropodomorpha, termasuk hutan-hutan dataran rendah, rawa-rawa, dan dataran banjir. Mereka cenderung menghuni daerah-daerah dengan vegetasi yang melimpah.</item>
+        <item>Theropoda: Theropoda, seperti Velociraptor dan Tyrannosaurus rex, mendiami berbagai lingkungan, mulai dari hutan-hutan dataran rendah hingga dataran banjir dan wilayah semi-kering. Beberapa spesies theropoda juga ditemukan di daerah pegunungan.</item>
+        <item>Therizinosauria: Therizinosauria, seperti Therizinosaurus, sering ditemukan di habitat-habitat hutan yang lebat dan berawa-rawa. Mereka juga dapat hidup di daerah-daerah yang lebih terbuka dengan vegetasi yang melimpah.</item>
+    </string-array>
+
+    <string-array name="dinosaurus_perilakudanklasifikasi">
+        <item>Ankylosauria \n Perilaku: Ankylosauria umumnya memiliki tubuh yang dilengkapi dengan cangkang berlapis dan tonjolan-tonjolan tulang yang kuat sebagai pertahanan terhadap predator. Mereka juga mungkin menggunakan ekor mereka yang berat dan berat sebagai senjata pertahanan. \n Klasifikasi: Ankylosauria termasuk dalam ordo Ornithischia dan subordo Thyreophora.</item>
+        <item>Ceratopsia: \n Perilaku: Ceratopsia umumnya memiliki tanduk dan cakar yang mereka gunakan untuk pertahanan atau untuk memperebutkan wilayah atau pasangan. \n Klasifikasi: Ceratopsia termasuk dalam ordo Ornithischia dan subordo Ceratopsia.</item>
+        <item>Marginocephalia: \n Perilaku: Marginocephalia mencakup ceratopsia dan pachycephalosauria. Pachycephalosauria dikenal karena tengkorak tebal mereka yang mungkin digunakan untuk perkelahian antar sesama dan perlindungan kepala. Sementara itu, ceratopsia memiliki tanduk dan frill yang mungkin digunakan dalam pertarungan antar individu atau sebagai pertahanan terhadap predator. \n Klasifikasi: Marginocephalia termasuk dalam ordo Ornithischia dan subordo Marginocephalia.</item>
+        <item>Sauropodomorpha: \n Perilaku: Sauropodomorpha adalah dinosaurus herbivora dengan leher yang panjang, yang digunakan untuk mencapai dedaunan tinggi di pohon. Mereka mungkin bergerombol untuk melindungi diri mereka dari predator. \n Klasifikasi: Sauropodomorpha termasuk dalam ordo Saurischia dan subordo Sauropodomorpha.</item>
+        <item>Ornithopoda: \n Perilaku: Ornithopoda umumnya adalah herbivora yang berkembang biak dan dapat bergerombol. Beberapa spesies mungkin telah berkembang biak di kawanan besar untuk melindungi diri dari predator. \n Klasifikasi: Ornithopoda termasuk dalam ordo Ornithischia dan subordo Ornithopoda.</item>
+        <item>Sauropoda: \n Perilaku: Sauropoda adalah herbivora yang besar dan mungkin bergerombol untuk melindungi diri mereka dari predator. Mereka menggunakan leher panjang mereka untuk mencapai dedaunan tinggi di pohon. \n Klasifikasi: Sauropoda termasuk dalam ordo Saurischia dan subordo Sauropoda.</item>
+        <item>Theropoda: \n Perilaku: Theropoda adalah dinosaurus pemangsa yang memburu dengan menggunakan kecepatan, kecerdasan, dan senjata alami seperti cakar dan gigi tajam. \n Klasifikasi: Theropoda termasuk dalam ordo Saurischia dan subordo Theropoda.</item>
+        <item>Therizinosauria: \n Perilaku: Therizinosauria adalah herbivora yang unik dengan cakar panjang yang mungkin mereka gunakan untuk meraih daun atau buah di pohon. \n Klasifikasi: Therizinosauria juga termasuk dalam ordo Saurischia dan subordo Theropoda (walaupun hal ini sering kali menjadi perdebatan di antara para ahli).</item>
+    </string-array>
+
 </resources>

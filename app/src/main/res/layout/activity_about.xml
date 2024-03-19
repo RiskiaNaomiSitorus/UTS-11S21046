@@ -19,13 +19,12 @@
             android:layout_gravity="center">
 
             <de.hdodenhof.circleimageview.CircleImageView
-                android:id="@+id/riskia_profile_profile"
-                android:layout_width="250dp"
-                android:layout_height="250dp"
-                android:src="@drawable/img"
+                android:id="@+id/riskianaomi_profile"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:src="@drawable/dinosaurus"
                 app:layout_constraintBottom_toTopOf="@id/nimpenjual"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.0"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
                 tools:ignore="MissingConstraints" />
@@ -35,12 +34,12 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
-                android:text="ifs21046"
+                android:text="@string/ifs21046"
                 android:textSize="16sp"
                 app:layout_constraintBottom_toTopOf="@id/namapenjual1"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@id/riskia_profile_profile"
+                app:layout_constraintTop_toBottomOf="@id/riskianaomi_profile"
                 tools:ignore="UnknownId" />
 
             <TextView
@@ -48,7 +47,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
-                android:text="Riskia Naomi Sitorus"
+                android:text="@string/riskianaomi"
                 android:textSize="24sp"
                 android:textStyle="bold"
                 app:layout_constraintBottom_toBottomOf="parent"

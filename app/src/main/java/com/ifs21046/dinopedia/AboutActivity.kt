@@ -1,11 +1,10 @@
-package com.ifs21046.dinopedia;
+package com.ifs21046.dinopedia
 
-import android.os.Bundle
-import android.view.MenuItem
 import androidx.appcompat.app.AppCompatActivity
+import android.view.MenuItem
+import android.os.Bundle
 
-public class AboutActivity {
-
+class AboutActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_about)
