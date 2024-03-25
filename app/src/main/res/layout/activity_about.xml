@@ -22,25 +22,13 @@
                 android:id="@+id/riskianaomi_profile"
                 android:layout_width="150dp"
                 android:layout_height="150dp"
-                android:src="@drawable/dinosaurus"
-                app:layout_constraintBottom_toTopOf="@id/nimpenjual"
+                android:src="@drawable/img"
+                app:layout_constraintBottom_toTopOf="@id/namapenjual1"
                 app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.493"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
                 tools:ignore="MissingConstraints" />
-
-            <TextView
-                android:id="@+id/nimpenjual"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="10dp"
-                android:text="@string/ifs21046"
-                android:textSize="16sp"
-                app:layout_constraintBottom_toTopOf="@id/namapenjual1"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@id/riskianaomi_profile"
-                tools:ignore="UnknownId" />
 
             <TextView
                 android:id="@+id/namapenjual1"
@@ -52,8 +40,23 @@
                 android:textStyle="bold"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@id/nimpenjual" />
+                app:layout_constraintTop_toBottomOf="@id/tanggallahir" />
+
+            <TextView
+                android:id="@+id/tanggallahir"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="@string/ifs21046"
+                android:textSize="16sp"
+                app:layout_constraintBottom_toTopOf="@id/namapenjual1"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.496"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/riskianaomi_profile"
+                tools:ignore="UnknownId" />
 
         </androidx.constraintlayout.widget.ConstraintLayout>
     </ScrollView>

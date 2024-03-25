@@ -1,12 +1,22 @@
 <resources>
     <string name="riskianaomi_app_name">Dinosaurus</string>
-    <string name="info_riskianaomi_icon">Ikon SM</string>
+    <string name="info_riskianaomi_icon">Ikon Dinosaurus</string>
     <string name="info_riskianaomi_name">Nama Group</string>
     <string name="info_riskianaomi_desc">Deskripsi</string>
     <string name="info_riskianaomi_per">Periode Hidup</string>
     <string name="info_riskianaomi_kar">karakteristikfisik</string>
     <string name="info_riskianaomi_hub">habitatdanlingkungan</string>
-    <string name="info_riskianaomi_periode">perilakudanklasifikasi</string>
+    <string name="info_riskianaomi_karakteristik">Karakteristik</string>
+    <string name="info_riskianaomi_icon1">Ikon</string>
+    <string name="info_riskianaomi_descrip">Deskripsi</string>
+    <string name="info_riskianaomi_names">Nama</string>
+    <string name="info_riskianaomi_kelompok">Kelompok</string>
+    <string name="info_riskianaomi_habitat">Habitat</string>
+    <string name="info_riskianaomi_makanan">Makanan</string>
+    <string name="info_riskianaomi_panjang">Panjang</string>
+    <string name="info_riskianaomi_tinggi">Tinggi</string>
+    <string name="info_riskianaomi_bobot">Bobot</string>
+    <string name="info_riskianaomi_kelemahan">Kelemahan</string>
     <string name="ifs21046">ifs21046</string>
     <string name="riskianaomi">Riskia Naomi Sitorus</string>
     <string name="riskianaomi_about">About</string>
@@ -46,36 +56,227 @@
 
 
     <string-array name="dinosaurus_periodehidup">
-        <item>Ankylosauria, Periode hidup mereka umumnya berada dari pertengahan Jura hingga akhir Kretaseus, kira-kira sekitar 165 hingga 66 juta tahun yang lalu. </item>
-        <item>Ceratopsia, Mereka berkembang pada masa akhir Jura hingga Kretaseus, kira-kira antara 161 hingga 66 juta tahun yang lalu.</item>
-        <item>Marginocephalia, Kelompok ini hidup dari akhir Jura hingga Kretaseus, sekitar 161 hingga 66 juta tahun yang lalu.</item>
-        <item>Sauropodomorpha, Mereka muncul di awal Jura dan bertahan hingga akhir Kretaseus, sekitar 201 hingga 66 juta tahun yang lalu.</item>
-        <item>Ornithopoda, Mereka hidup dari pertengahan Jura hingga akhir Kretaseus, kira-kira 161 hingga 66 juta tahun yang lalu.</item>
-        <item>Sauropoda, Periode kehidupan mereka berkisar dari akhir Jura hingga akhir Kretaseus, sekitar 161 hingga 66 juta tahun yang lalu.</item>
-        <item>Theropoda, Mereka hadir dari akhir Trias hingga akhir Kretaseus, sekitar 230 hingga 66 juta tahun yang lalu.</item>
-        <item>Therizinosauria, Muncul pada masa akhir Jura hingga akhir Kretaseus, sekitar 161 hingga 66 juta tahun yang lalu.</item>
+        <item>Periode Hidup: \n Ankylosauria, Periode hidup mereka umumnya berada dari pertengahan Jura hingga akhir Kretaseus, kira-kira sekitar 165 hingga 66 juta tahun yang lalu. </item>
+        <item>Periode Hidup: \n Ceratopsia, Mereka berkembang pada masa akhir Jura hingga Kretaseus, kira-kira antara 161 hingga 66 juta tahun yang lalu.</item>
+        <item>Periode Hidup: \n Marginocephalia, Kelompok ini hidup dari akhir Jura hingga Kretaseus, sekitar 161 hingga 66 juta tahun yang lalu.</item>
+        <item>Periode Hidup: \n Sauropodomorpha, Mereka muncul di awal Jura dan bertahan hingga akhir Kretaseus, sekitar 201 hingga 66 juta tahun yang lalu.</item>
+        <item>Periode Hidup: \n Ornithopoda, Mereka hidup dari pertengahan Jura hingga akhir Kretaseus, kira-kira 161 hingga 66 juta tahun yang lalu.</item>
+        <item>Periode Hidup: \n Sauropoda, Periode kehidupan mereka berkisar dari akhir Jura hingga akhir Kretaseus, sekitar 161 hingga 66 juta tahun yang lalu.</item>
+        <item>Periode Hidup: \n Theropoda, Mereka hadir dari akhir Trias hingga akhir Kretaseus, sekitar 230 hingga 66 juta tahun yang lalu.</item>
+        <item>Periode Hidup: \nTherizinosauria, Muncul pada masa akhir Jura hingga akhir Kretaseus, sekitar 161 hingga 66 juta tahun yang lalu.</item>
     </string-array>
 
     <string-array name="dinosaurus_habitatdanlingkungan">
-        <item>Ankylosauria: Ankylosauria umumnya hidup di dataran rendah dan padang rumput serta daerah-daerah yang lebih terbuka. Mereka sering ditemukan di wilayah yang kering atau semi-kering. Habitat mereka termasuk dataran, hutan, dan dataran banjir.</item>
-        <item>Ceratopsia: Dinosaurs ceratopsian seperti Triceratops dan Protoceratops biasanya ditemukan di daerah dataran rendah, lembah sungai, dan dataran banjir yang subur. Mereka juga dapat menghuni hutan-hutan dataran rendah yang cukup luas.</item>
-        <item>Marginocephalia: Marginocephalia, yang mencakup Pachycephalosauria dan Ceratopsia, umumnya ditemukan di berbagai habitat, termasuk hutan-hutan dataran rendah, daerah lembah sungai, dan dataran banjir yang luas.</item>
-        <item>Sauropodomorpha: Sauropodomorpha, seperti Brachiosaurus dan Diplodocus, mendiami berbagai lingkungan, termasuk hutan-hutan dataran rendah, daerah rawa-rawa, dan dataran banjir. Mereka cenderung menghuni daerah-daerah dengan vegetasi yang melimpah dan air yang cukup.</item>
-        <item>Ornithopoda: Dinosaurs ornithopoda, seperti Hadrosaurus dan Iguanodon, sering ditemukan di dataran banjir, daerah lembah sungai, dan padang rumput yang subur. Mereka juga dapat menghuni hutan-hutan dataran rendah dan daerah rawa-rawa.</item>
-        <item>Sauropoda: Sauropoda umumnya ditemukan di habitat-habitat yang mirip dengan Sauropodomorpha, termasuk hutan-hutan dataran rendah, rawa-rawa, dan dataran banjir. Mereka cenderung menghuni daerah-daerah dengan vegetasi yang melimpah.</item>
-        <item>Theropoda: Theropoda, seperti Velociraptor dan Tyrannosaurus rex, mendiami berbagai lingkungan, mulai dari hutan-hutan dataran rendah hingga dataran banjir dan wilayah semi-kering. Beberapa spesies theropoda juga ditemukan di daerah pegunungan.</item>
-        <item>Therizinosauria: Therizinosauria, seperti Therizinosaurus, sering ditemukan di habitat-habitat hutan yang lebat dan berawa-rawa. Mereka juga dapat hidup di daerah-daerah yang lebih terbuka dengan vegetasi yang melimpah.</item>
+        <item>Habitat: \n Ankylosauria umumnya hidup di dataran rendah dan padang rumput serta daerah-daerah yang lebih terbuka. Mereka sering ditemukan di wilayah yang kering atau semi-kering. Habitat mereka termasuk dataran, hutan, dan dataran banjir.</item>
+        <item>Habitat: \n Dinosaurs ceratopsian seperti Triceratops dan Protoceratops biasanya ditemukan di daerah dataran rendah, lembah sungai, dan dataran banjir yang subur. Mereka juga dapat menghuni hutan-hutan dataran rendah yang cukup luas.</item>
+        <item>Habitat: \n Marginocephalia, yang mencakup Pachycephalosauria dan Ceratopsia, umumnya ditemukan di berbagai habitat, termasuk hutan-hutan dataran rendah, daerah lembah sungai, dan dataran banjir yang luas.</item>
+        <item>Habitat: \n Sauropodomorpha, seperti Brachiosaurus dan Diplodocus, mendiami berbagai lingkungan, termasuk hutan-hutan dataran rendah, daerah rawa-rawa, dan dataran banjir. Mereka cenderung menghuni daerah-daerah dengan vegetasi yang melimpah dan air yang cukup.</item>
+        <item>Habitat: \n Dinosaurs ornithopoda, seperti Hadrosaurus dan Iguanodon, sering ditemukan di dataran banjir, daerah lembah sungai, dan padang rumput yang subur. Mereka juga dapat menghuni hutan-hutan dataran rendah dan daerah rawa-rawa.</item>
+        <item>Habitat: \n Sauropoda umumnya ditemukan di habitat-habitat yang mirip dengan Sauropodomorpha, termasuk hutan-hutan dataran rendah, rawa-rawa, dan dataran banjir. Mereka cenderung menghuni daerah-daerah dengan vegetasi yang melimpah.</item>
+        <item>Habitat: \n Theropoda, seperti Velociraptor dan Tyrannosaurus rex, mendiami berbagai lingkungan, mulai dari hutan-hutan dataran rendah hingga dataran banjir dan wilayah semi-kering. Beberapa spesies theropoda juga ditemukan di daerah pegunungan.</item>
+        <item>Habitat: \n Therizinosauria, seperti Therizinosaurus, sering ditemukan di habitat-habitat hutan yang lebat dan berawa-rawa. Mereka juga dapat hidup di daerah-daerah yang lebih terbuka dengan vegetasi yang melimpah.</item>
     </string-array>
 
     <string-array name="dinosaurus_perilakudanklasifikasi">
-        <item>Ankylosauria \n Perilaku: Ankylosauria umumnya memiliki tubuh yang dilengkapi dengan cangkang berlapis dan tonjolan-tonjolan tulang yang kuat sebagai pertahanan terhadap predator. Mereka juga mungkin menggunakan ekor mereka yang berat dan berat sebagai senjata pertahanan. \n Klasifikasi: Ankylosauria termasuk dalam ordo Ornithischia dan subordo Thyreophora.</item>
-        <item>Ceratopsia: \n Perilaku: Ceratopsia umumnya memiliki tanduk dan cakar yang mereka gunakan untuk pertahanan atau untuk memperebutkan wilayah atau pasangan. \n Klasifikasi: Ceratopsia termasuk dalam ordo Ornithischia dan subordo Ceratopsia.</item>
-        <item>Marginocephalia: \n Perilaku: Marginocephalia mencakup ceratopsia dan pachycephalosauria. Pachycephalosauria dikenal karena tengkorak tebal mereka yang mungkin digunakan untuk perkelahian antar sesama dan perlindungan kepala. Sementara itu, ceratopsia memiliki tanduk dan frill yang mungkin digunakan dalam pertarungan antar individu atau sebagai pertahanan terhadap predator. \n Klasifikasi: Marginocephalia termasuk dalam ordo Ornithischia dan subordo Marginocephalia.</item>
-        <item>Sauropodomorpha: \n Perilaku: Sauropodomorpha adalah dinosaurus herbivora dengan leher yang panjang, yang digunakan untuk mencapai dedaunan tinggi di pohon. Mereka mungkin bergerombol untuk melindungi diri mereka dari predator. \n Klasifikasi: Sauropodomorpha termasuk dalam ordo Saurischia dan subordo Sauropodomorpha.</item>
-        <item>Ornithopoda: \n Perilaku: Ornithopoda umumnya adalah herbivora yang berkembang biak dan dapat bergerombol. Beberapa spesies mungkin telah berkembang biak di kawanan besar untuk melindungi diri dari predator. \n Klasifikasi: Ornithopoda termasuk dalam ordo Ornithischia dan subordo Ornithopoda.</item>
-        <item>Sauropoda: \n Perilaku: Sauropoda adalah herbivora yang besar dan mungkin bergerombol untuk melindungi diri mereka dari predator. Mereka menggunakan leher panjang mereka untuk mencapai dedaunan tinggi di pohon. \n Klasifikasi: Sauropoda termasuk dalam ordo Saurischia dan subordo Sauropoda.</item>
-        <item>Theropoda: \n Perilaku: Theropoda adalah dinosaurus pemangsa yang memburu dengan menggunakan kecepatan, kecerdasan, dan senjata alami seperti cakar dan gigi tajam. \n Klasifikasi: Theropoda termasuk dalam ordo Saurischia dan subordo Theropoda.</item>
-        <item>Therizinosauria: \n Perilaku: Therizinosauria adalah herbivora yang unik dengan cakar panjang yang mungkin mereka gunakan untuk meraih daun atau buah di pohon. \n Klasifikasi: Therizinosauria juga termasuk dalam ordo Saurischia dan subordo Theropoda (walaupun hal ini sering kali menjadi perdebatan di antara para ahli).</item>
+        <item>Perilaku: \n Ankylosauria umumnya memiliki tubuh yang dilengkapi dengan cangkang berlapis dan tonjolan-tonjolan tulang yang kuat sebagai pertahanan terhadap predator. Mereka juga mungkin menggunakan ekor mereka yang berat dan berat sebagai senjata pertahanan. \n Klasifikasi: Ankylosauria termasuk dalam ordo Ornithischia dan subordo Thyreophora.</item>
+        <item>Perilaku: \n Ceratopsia umumnya memiliki tanduk dan cakar yang mereka gunakan untuk pertahanan atau untuk memperebutkan wilayah atau pasangan. \n Klasifikasi: Ceratopsia termasuk dalam ordo Ornithischia dan subordo Ceratopsia.</item>
+        <item>Perilaku: \n Marginocephalia mencakup ceratopsia dan pachycephalosauria. Pachycephalosauria dikenal karena tengkorak tebal mereka yang mungkin digunakan untuk perkelahian antar sesama dan perlindungan kepala. Sementara itu, ceratopsia memiliki tanduk dan frill yang mungkin digunakan dalam pertarungan antar individu atau sebagai pertahanan terhadap predator. \n Klasifikasi: Marginocephalia termasuk dalam ordo Ornithischia dan subordo Marginocephalia.</item>
+        <item>Perilaku: \n Sauropodomorpha adalah dinosaurus herbivora dengan leher yang panjang, yang digunakan untuk mencapai dedaunan tinggi di pohon. Mereka mungkin bergerombol untuk melindungi diri mereka dari predator. \n Klasifikasi: Sauropodomorpha termasuk dalam ordo Saurischia dan subordo Sauropodomorpha.</item>
+        <item>Perilaku: \n Ornithopoda umumnya adalah herbivora yang berkembang biak dan dapat bergerombol. Beberapa spesies mungkin telah berkembang biak di kawanan besar untuk melindungi diri dari predator. \n Klasifikasi: Ornithopoda termasuk dalam ordo Ornithischia dan subordo Ornithopoda.</item>
+        <item>Perilaku: \n Sauropoda adalah herbivora yang besar dan mungkin bergerombol untuk melindungi diri mereka dari predator. Mereka menggunakan leher panjang mereka untuk mencapai dedaunan tinggi di pohon. \n Klasifikasi: Sauropoda termasuk dalam ordo Saurischia dan subordo Sauropoda.</item>
+        <item>Perilaku: \n Theropoda adalah dinosaurus pemangsa yang memburu dengan menggunakan kecepatan, kecerdasan, dan senjata alami seperti cakar dan gigi tajam. \n Klasifikasi: Theropoda termasuk dalam ordo Saurischia dan subordo Theropoda.</item>
+        <item>Perilaku: \n Therizinosauria adalah herbivora yang unik dengan cakar panjang yang mungkin mereka gunakan untuk meraih daun atau buah di pohon. \n Klasifikasi: Therizinosauria juga termasuk dalam ordo Saurischia dan subordo Theropoda (walaupun hal ini sering kali menjadi perdebatan di antara para ahli).</item>
+    </string-array>
+
+
+    <string-array name="riskianaomi_names">
+        <item>Ankylosaurus</item>
+        <item>Euoplocephalus</item>
+        <item>Triceratops</item>
+        <item>Styracosaurus</item>
+        <item>Pachycephalosaurus</item>
+        <item>Pachyrhinosaurus</item>
+        <item>Brachiosaurus</item>
+        <item>Apatosaurus</item>
+        <item>Parasaurolophus</item>
+        <item>Iguanodon</item>
+        <item>Diplodocus</item>
+        <item>Brontosaurus</item>
+        <item>Tyrannosaurus rex</item>
+        <item>Velociraptor</item>
+        <item>Therizinosaurus</item>
+        <item>Nothronychus</item>
+    </string-array>
+
+    <string-array name="dinosaurus_iconn">
+        <item>@drawable/ankylosaurus</item>
+        <item>@drawable/eulocephalus</item>
+        <item>@drawable/triceratops</item>
+        <item>@drawable/styracosaurus</item>
+        <item>@drawable/pachycephalosaurus</item>
+        <item>@drawable/pachyrhinosaurus</item>
+        <item>@drawable/brachiosaurus</item>
+        <item>@drawable/apatosaurus</item>
+        <item>@drawable/parasaurolophus</item>
+        <item>@drawable/iguanodon</item>
+        <item>@drawable/diplodocus</item>
+        <item>@drawable/bronrosaurus</item>
+        <item>@drawable/triceratops</item>
+        <item>@drawable/velociraptor</item>
+        <item>@drawable/therizinosaurus</item>
+        <item>@drawable/nothronychus</item>
+    </string-array>
+
+    <string-array name="dinosaurus_descrip">
+        <item>Dinosaurs herbivora berat bercangkang berat yang hidup pada periode Cretaceous. Mereka memiliki badan yang rendah dengan cangkang yang keras dan menebal untuk perlindungan, serta sebuah buntut yang dilengkapi dengan alat pemukul berat.</item>
+        <item>Euoplocephalus adalah dinosaurus herbivora yang hidup pada periode Kapur akhir, sekitar 76 hingga 66 juta tahun yang lalu, di wilayah yang sekarang menjadi bagian dari Amerika Utara. Dinosaurus ini termasuk dalam kelompok Ankylosauria, yang dikenal dengan ciri khas mereka yang dilengkapi dengan cangkang keras dan buntut yang berat.</item>
+        <item>Triceratops adalah dinosaurus herbivora yang hidup pada periode Kapur akhir, sekitar 68 hingga 66 juta tahun yang lalu, di wilayah yang sekarang menjadi bagian dari Amerika Utara. Dinosaurus ini termasuk dalam kelompok ceratopsid, yang dikenal dengan ciri khas mereka yang memiliki tanduk di atas hidung dan piringan besar di belakang kepala.</item>
+        <item>Styracosaurus adalah dinosaurus herbivora yang hidup pada periode Kapur Akhir, sekitar 75 hingga 72 juta tahun yang lalu, di wilayah yang sekarang menjadi bagian dari Amerika Utara, terutama di daerah yang sekarang dikenal sebagai Alberta, Kanada. Dinosaurus ini termasuk dalam kelompok ceratopsid, yang dikenal dengan ciri khas mereka yang memiliki tanduk di atas hidung dan piringan besar di belakang kepala.3.</item>
+        <item>Pachycephalosaurus adalah dinosaurus herbivora atau mungkin omnivora yang hidup pada periode Kapur Akhir, sekitar 70 hingga 65 juta tahun yang lalu, di wilayah yang sekarang menjadi bagian dari Amerika Utara. Dinosaurus ini dikenal dengan ciri khasnya yang paling mencolok, yaitu kepala yang sangat tebal dan kokoh.</item>
+        <item>Pachyrhinosaurus adalah dinosaurus herbivora yang hidup pada periode Kapur Akhir, sekitar 72 hingga 66 juta tahun yang lalu, di wilayah yang sekarang menjadi bagian dari Amerika Utara dan Asia. Dinosaurus ini termasuk dalam kelompok ceratopsid, yang dikenal dengan ciri khas mereka yang memiliki tanduk di atas hidung dan piringan besar di belakang kepala.</item>
+        <item>Brachiosaurus adalah dinosaurus herbivora raksasa yang hidup pada periode Jurassic, sekitar 154 hingga 153 juta tahun yang lalu, di wilayah yang sekarang menjadi bagian dari Amerika Utara, Eropa, dan Afrika. Nama "Brachiosaurus" berasal dari bahasa Yunani yang berarti "kadal lengan", yang merujuk pada karakteristik utamanya yang paling mencolok, yaitu panjangnya yang luar biasa pada bagian depan tubuhnya.</item>
+        <item>Apatosaurus, yang sebelumnya dikenal sebagai Brontosaurus, adalah dinosaurus herbivora raksasa yang hidup pada periode Jurassic, sekitar 154 hingga 152 juta tahun yang lalu, di wilayah yang sekarang menjadi bagian dari Amerika Utara. Nama "Apatosaurus" berasal dari bahasa Yunani yang berarti "kadal yang tidak lengkap", yang merujuk pada kekurangan beberapa spesimen yang ditemukan ketika pertama kali dinamai.</item>
+        <item>Parasaurolophus, adalah dinosaurus herbivora yang hidup pada periode Kapur Akhir, sekitar 76 hingga 73 juta tahun yang lalu, di wilayah yang sekarang menjadi bagian dari Amerika Utara. Dinosaurus ini termasuk dalam kelompok hadrosaurid, yang dikenal dengan sebutan "dinosaurus bebek" atau "dinosaurus berjenggot" karena bentuk kepala dan rahangnya yang khas.</item>
+        <item>Iguanodon adalah dinosaurus herbivora yang hidup pada periode Kapur Awal hingga Kapur Akhir, sekitar 139 hingga 66 juta tahun yang lalu, di wilayah yang sekarang menjadi bagian dari Eropa, terutama di wilayah yang sekarang dikenal sebagai Belgia dan Inggris. Dinosaurus ini termasuk dalam kelompok ornithopoda, yang dikenal dengan ciri khas mereka yang memiliki rahang yang kuat dan digunakan untuk mengunyah tanaman.</item>
+        <item>Diplodocus adalah dinosaurus sauropoda yang hidup pada periode Jurassic Akhir, sekitar 154 hingga 152 juta tahun yang lalu, di wilayah yang sekarang menjadi bagian dari Amerika Utara. Nama "Diplodocus" berasal dari bahasa Yunani yang berarti "bajak", merujuk pada struktur tulang belakangnya yang panjang dan sering kali dianggap mirip dengan deretan bajak pada kapal.</item>
+        <item>Brontosaurus adalah dinosaurus sauropoda yang hidup pada periode Jurassic Akhir, sekitar 155 hingga 150 juta tahun yang lalu, di wilayah yang sekarang menjadi bagian dari Amerika Utara. Nama "Brontosaurus" berasal dari bahasa Yunani yang berarti "kadal gemuk", yang merujuk pada ukuran tubuhnya yang besar. </item>
+        <item>Tyrannosaurus rex, sering disingkat menjadi T. rex, adalah salah satu dinosaurus karnivora terbesar yang pernah ada. Spesies ini hidup pada periode akhir Kapur, sekitar 68 hingga 66 juta tahun yang lalu, di wilayah yang sekarang menjadi bagian dari Amerika Utara. T. rex merupakan predator puncak dari ekosistemnya, dengan gigi-gigi yang besar dan kuat, serta kepala yang besar yang memungkinkannya untuk menangkap dan memakan mangsanya dengan efektif.</item>
+        <item>Velociraptor adalah dinosaurus karnivora yang terkenal karena ukurannya yang relatif kecil dan kecepatan serta kecerdasannya yang tinggi. Dinosaurus ini hidup pada periode Kapur, sekitar 75 hingga 71 juta tahun yang lalu, di wilayah yang sekarang menjadi bagian dari Asia Tengah. Salah satu ciri yang paling mencolok dari Velociraptor adalah cakarnya yang tajam dan khas di kedua kaki belakangnya, yang digunakan untuk menangkap dan membunuh mangsa.</item>
+        <item>Therizinosaurus adalah salah satu dinosaurus yang sangat unik dan menarik, dikenal karena cakarnya yang sangat panjang dan mencolok. Dinosaurus ini hidup pada periode Kapur awal, sekitar 70 hingga 75 juta tahun yang lalu, di wilayah yang sekarang menjadi bagian dari Asia, seperti Mongolia dan Cina.</item>
+        <item>Nothronychus adalah jenis dinosaurus therizinosaurid yang hidup pada periode Kapur Akhir, sekitar 70 hingga 68 juta tahun yang lalu, di wilayah yang sekarang menjadi bagian dari Amerika Utara, khususnya di daerah yang sekarang dikenal sebagai negara bagian Utah dan Texas.</item>
+    </string-array>
+
+    <string-array name="riskianaomi_kelompok">
+        <item>ankylosaurus, Dinosaurus Berduri/Terlindungi (Ankylosauria)</item>
+        <item>Euoplocephalus, Dinosaurus Berduri/Terlindungi (Ankylosauria)</item>
+        <item>Triceratops, Dinosaurus Bertanduk (Ceratopsidae)</item>
+        <item>Styracosaurus, Dinosaurus Bertanduk (Ceratopsidae)</item>
+        <item>Pachycephalosaurus, Dinosaurus Bertubuh Rendah dan Berat (Ornithopoda)</item>
+        <item>Pachyrhinosaurus, Dinosaurus Bertubuh Rendah dan Berat (Ornithopoda)</item>
+        <item>Brachiosaurus, Dinosaurus Berleher Panjang (Sauropoda)</item>
+        <item>Apatosaurus, Dinosaurus Berleher Panjang (Sauropoda)</item>
+        <item>Parasaurolophus, Dinosaurus Bertubuh Rendah dan Berat (Ornithopoda)</item>
+        <item>Iguanodon, Dinosaurus Bertubuh Rendah dan Berat (Ornithopoda)</item>
+        <item>Diplodocus, Dinosaurus Bertubuh Rendah dan Berat (Ornithopoda)</item>
+        <item>Brontosaurus,Dinosaurus Bertubuh Rendah dan Berat (Ornithopoda)</item>
+        <item>Tyrannosaurus rex, Dinosaurus Bertubuh Rendah dan Berat (Ornithopoda)</item>
+        <item>Velociraptor, Dinosaurus Bertubuh Rendah dan Berat (Ornithopoda)</item>
+        <item>Therizinosaurus, Dinosaurus Karnivora (Predator)</item>
+        <item>Nothronychus,Dinosaurus Karnivora (Predator)</item>
+    </string-array>
+
+    <string-array name="riskianaomi_Habitat">
+        <item>Ankylosaurus cenderung menghuni daerah dataran rendah hingga hutan yang memiliki vegetasi yang cukup untuk dijadikan makanan. Mereka mungkin juga sering ditemukan di daerah rawa atau dekat sungai.</item>
+        <item>Euoplocephalus mirip dengan Ankylosaurus, dengan preferensi untuk daerah dataran rendah hingga hutan yang memiliki vegetasi yang cukup.</item>
+        <item>Triceratops hidup di dataran yang terbuka dan wilayah berhutan yang cukup luas. Mereka sering ditemukan di daerah dataran rendah yang subur dengan berbagai jenis vegetasi.</item>
+        <item>Styracosaurus kemungkinan hidup di daerah yang mirip dengan habitat Triceratops, dengan daerah dataran rendah yang terbuka dan berhutan.</item>
+        <item>Pachycephalosaurus mungkin menghuni wilayah dataran rendah yang terbuka atau hutan yang cukup luas, tetapi mereka juga bisa ditemukan di daerah yang lebih berbatu atau berbukit.</item>
+        <item>Pachyrhinosaurus kemungkinan mirip dengan Triceratops dan Styracosaurus, dengan preferensi untuk daerah dataran rendah yang subur.</item>
+        <item>Brachiosaurus hidup di daerah dataran rendah hingga hutan yang cukup luas dengan dedaunan tinggi. Mereka mungkin juga menghuni daerah rawa atau dataran banjir.</item>
+        <item>Apatosaurus cenderung menghuni daerah dataran rendah hingga hutan yang memiliki vegetasi yang cukup untuk dijadikan makanan. Mereka mungkin juga sering ditemukan di daerah rawa atau dekat sungai.</item>
+        <item>Parasaurolophus sering ditemukan di daerah rawa, sungai, atau daerah dataran rendah yang subur dengan vegetasi yang cukup untuk dijadikan makanan.</item>
+        <item>Iguanodon mungkin menghuni berbagai jenis habitat, termasuk dataran rendah, hutan, dan rawa-rawa yang subur.</item>
+        <item>Diplodocus cenderung menghuni daerah dataran rendah hingga hutan yang memiliki dedaunan tinggi. Mereka mungkin juga sering ditemukan di daerah rawa atau dekat sungai.</item>
+        <item>Brontosaurus mungkin menghuni daerah dataran rendah yang subur dengan vegetasi yang cukup untuk dijadikan makanan, serta daerah rawa atau dataran banjir.</item>
+        <item>Tyrannosaurus rex adalah predator yang sering ditemukan di berbagai jenis habitat, termasuk dataran rendah, hutan, dan daerah rawa.</item>
+        <item>Velociraptor kemungkinan menghuni daerah yang mirip dengan Tyrannosaurus rex, dengan preferensi untuk daerah dataran rendah yang subur.</item>
+        <item>Therizinosaurus kemungkinan menghuni daerah hutan atau daerah rawa yang subur dengan vegetasi yang melimpah.</item>
+        <item>Nothronychus mungkin menghuni daerah yang mirip dengan Therizinosaurus, dengan preferensi untuk daerah hutan atau rawa-rawa yang subur.</item>
+    </string-array>
+
+    <string-array name="riskianaomi_Makanan">
+        <item>Ankylosaurus adalah herbivora yang mungkin memakan berbagai jenis tanaman rendah, semak-semak, dan mungkin juga tanaman berkayu.</item>
+        <item>Euoplocephalus juga herbivora yang kemungkinan memakan tanaman rendah, semak-semak, dan mungkin juga tanaman berkayu.</item>
+        <item>Triceratops adalah herbivora yang mungkin memakan berbagai jenis tanaman, termasuk dedaunan, semak-semak, dan mungkin juga tanaman rendah.</item>
+        <item>Styracosaurus juga herbivora yang mungkin memakan tanaman rendah, semak-semak, dan mungkin juga tanaman berkayu.</item>
+        <item>Pachycephalosaurus mungkin merupakan herbivora yang memakan berbagai jenis tanaman rendah, daun, dan mungkin juga buah-buahan.</item>
+        <item>Pachyrhinosaurus juga herbivora yang mungkin memakan tanaman rendah, semak-semak, dan mungkin juga tanaman berkayu.</item>
+        <item>Brachiosaurus adalah herbivora yang mungkin memakan dedaunan tinggi di pohon-pohon dan tanaman yang tumbuh tinggi.</item>
+        <item>Apatosaurus juga herbivora yang mungkin memakan tanaman rendah, semak-semak, dan mungkin juga tanaman berkayu.</item>
+        <item>Parasaurolophus adalah herbivora yang mungkin memakan dedaunan, tumbuhan air, dan mungkin juga tanaman rendah.</item>
+        <item>Iguanodon adalah herbivora yang mungkin memakan berbagai jenis tanaman, termasuk dedaunan, semak-semak, dan mungkin juga tanaman berkayu.</item>
+        <item>Diplodocus adalah herbivora yang mungkin memakan dedaunan tinggi di pohon-pohon dan tanaman yang tumbuh tinggi.</item>
+        <item>Brontosaurus dan dinosaurus sejenisnya umumnya terdiri dari tumbuhan seperti paku-pakuan, semak-semak, tanaman rendah, dan mungkin juga biji-bijian yang tersedia di habitatnya.</item>
+        <item>Tyrannosaurus rex adalah karnivora yang memakan hewan lain, termasuk dinosaurus herbivora seperti Triceratops dan hadrosauridae lainnya.</item>
+        <item>Velociraptor adalah karnivora yang memakan hewan kecil, reptil, dan mungkin juga hewan lain yang lebih kecil darinya.</item>
+        <item>Therizinosaurus adalah herbivora yang mungkin memakan dedaunan, tumbuhan air, dan mungkin juga tanaman rendah.</item>
+        <item>Nothronychus adalah herbivora yang mungkin memakan dedaunan, tumbuhan air, dan mungkin juga tanaman rendah.</item>
+    </string-array>
+
+    <string-array name="riskianaomi_Panjang">
+        <item>Ankylosaurus, Sekitar 6 hingga 8 meter.</item>
+        <item>Euoplocephalus, Sekitar 6 hingga 9 meter.</item>
+        <item>Triceratops, Sekitar 7 hingga 9 meter.</item>
+        <item>Styracosaurus, Sekitar 5 hingga 6 meter.</item>
+        <item>Pachycephalosaurus, Sekitar 4 hingga 5 meter.</item>
+        <item>Pachyrhinosaurus, Sekitar 6 hingga 8 meter.</item>
+        <item>Brachiosaurus, Sekitar 18 hingga 25 meter.</item>
+        <item>Apatosaurus, Sekitar 21 hingga 27 meter.</item>
+        <item>Parasaurolophus, Sekitar 9 hingga 10 meter.</item>
+        <item>Iguanodon, Sekitar 9 hingga 10 meter.</item>
+        <item>Diplodocus, Sekitar 25 hingga 27 meter.</item>
+        <item>Brontosaurus, Sekitar 12 hingga 13 meter.</item>
+        <item>Tyrannosaurus rex, Sekitar 1,8 hingga 2 meter.</item>
+        <item>Velociraptor, Sekitar 7 hingga 10 meter.</item>
+        <item>Therizinosaurus, Sekitar 7 hingga 10 meter.</item>
+        <item>Nothronychus, Sekitar 5 hingga 6 meter.</item>
+    </string-array>
+
+    <string-array name="riskianaomi_Tinggi">
+        <item>Ankylosaurus, Sekitar 1,5 hingga 2 meter.</item>
+        <item>Euoplocephalus, Sekitar 1,8 hingga 2,5 meter.</item>
+        <item>Triceratops, Sekitar 2,5 hingga 3 meter.</item>
+        <item>Styracosaurus, Sekitar 1,8 hingga 2,2 meter.</item>
+        <item>Pachycephalosaurus, Sekitar 1,5 hingga 2 meter.</item>
+        <item>Pachyrhinosaurus, Sekitar 6 hingga 8 meter.</item>
+        <item>Brachiosaurus, Sekitar 2 hingga 2,5 meter.</item>
+        <item>Apatosaurus, Sekitar 9 hingga 12 meter.</item>
+        <item>Parasaurolophus, Sekitar 7 hingga 8 meter.</item>
+        <item>Iguanodon, Sekitar 2 hingga 2,5 meter.</item>
+        <item>Diplodocus, Sekitar 3 hingga 4 meter.</item>
+        <item>Brontosaurus, Sekitar 4,5 hingga 6 meter.</item>
+        <item>Tyrannosaurus rex, Sekitar 3 hingga 4 meter.</item>
+        <item>Velociraptor, Sekitar 0,5 hingga 0,6 meter.</item>
+        <item>Therizinosaurus, Sekitar 3 hingga 4 meter.</item>
+        <item>Nothronychus, Sekitar 2 hingga 2,5 meter.</item>
+    </string-array>
+
+    <string-array name="riskianaomi_Kelemahan">
+        <item>Ankylosaurus mungkin adalah kecepatannya yang rendah karena tubuhnya yang besar dan berat. Ini dapat membuatnya rentan terhadap serangan predator yang lebih cepat dan gesit.</item>
+        <item>Euoplocephalus mungkin juga memiliki kelemahan kecepatan karena tubuhnya yang besar dan berat. Mereka juga mungkin memiliki keterbatasan dalam manuver karena cangkang dan struktur tubuhnya yang kaku.</item>
+        <item>Triceratops adalah area yang rentan di bawah lehernya yang tidak dilindungi oleh tanduk atau pelindung tulang. Serangan predator yang cerdas dan terampil mungkin dapat menyerang area ini.</item>
+        <item>Styracosaurus mungkin mirip dengan Triceratops, dengan area leher yang rentan menjadi target serangan predator.</item>
+        <item>Pachycephalosaurus mungkin terletak pada rahangnya yang lemah, yang tidak cocok untuk memotong makanan atau bertahan melawan predator.</item>
+        <item>Pachyrhinosaurus mungkin memiliki kelemahan yang serupa dengan Triceratops dan Styracosaurus, dengan area leher yang rentan menjadi target serangan predator.</item>
+        <item>Brachiosaurus mungkin adalah kebutuhan akan sumber makanan yang cukup tinggi, karena mereka memakan dedaunan tinggi di pohon-pohon.</item>
+        <item>Apatosaurus mungkin termasuk keterbatasan kecepatan karena tubuhnya yang besar dan berat. Mereka juga rentan terhadap cedera karena tekanan pada tulang belakang mereka yang panjang.</item>
+        <item>Parasaurolophus mungkin rentan terhadap predator karena ukurannya yang cukup besar dan relatif lambat dalam bergerak.</item>
+        <item>Iguanodon mungkin termasuk kerentanannya terhadap predator karena ukuran tubuhnya yang besar namun kurangnya perlindungan yang signifikan seperti bertanduk atau memiliki struktur pelindung tulang.</item>
+        <item>Diplodocus mungkin memiliki kelemahan kecepatan dan manuver karena ukuran tubuhnya yang besar. Mereka juga rentan terhadap cedera pada ekor mereka yang panjang karena rentan terhadap serangan predator.</item>
+        <item>Brontosaurus adalah ketidakmampuan untuk berlari atau melakukan gerakan cepat.</item>
+        <item>Tyrannosaurus rex mungkin adalah kecepatan yang rendah saat berburu. Meskipun memiliki kekuatan dan ukuran yang luar biasa, mereka mungkin tidak segesit predator lainnya seperti Velociraptor.</item>
+        <item>Velociraptor mungkin rentan terhadap serangan dari dinosaurus yang jauh lebih besar dan lebih kuat, karena ukuran tubuhnya yang kecil.</item>
+        <item>Therizinosaurus mungkin terletak pada kecepatan dan manuver, karena tubuhnya yang besar dan cangkang cakar yang kaku mungkin membuatnya sulit untuk bergerak dengan cepat.</item>
+        <item>Nothronychus mungkin rentan terhadap serangan predator karena kecepatannya yang relatif rendah dan kurangnya perlindungan tulang yang signifikan.</item>
+    </string-array>
+
+    <string-array name="riskianaomi_Bobot">
+        <item>Ankylosaurus, 6,000 kg</item>
+        <item>Euoplocephalus, 2,500 kg</item>
+        <item>Triceratops, 12,000 kg</item>
+        <item>Styracosaurus, 2,700 kg</item>
+        <item>Pachycephalosaurus, 450 kg</item>
+        <item>Pachyrhinosaurus, 4,000 kg</item>
+        <item>Brachiosaurus, 50,000 kg</item>
+        <item>Apatosaurus, 25,000 kg</item>
+        <item>Parasaurolophus, 2,000 kg</item>
+        <item>Iguanodon, 5,000 kg</item>
+        <item>Diplodocus, 15,000 kg</item>
+        <item>Brontosaurus, 15,000 kg</item>
+        <item>Tyrannosaurus rex, 9,000 kg</item>
+        <item>Velociraptor, 15 kg</item>
+        <item>Therizinosaurus, 5,000 kg</item>
+        <item>Nothronychus, 1,000 kg</item>
     </string-array>
 
 </resources>

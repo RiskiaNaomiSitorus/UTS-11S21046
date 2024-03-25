@@ -7,15 +7,27 @@
         android:dataExtractionRules="@xml/data_extraction_rules"
         android:fullBackupContent="@xml/backup_rules"
         android:icon="@drawable/dinosaurus"
-        android:label="riskianaomi_app_name"
+        android:label="Dino Pedia"
+        android:logo="@drawable/sauropoda"
         android:roundIcon="@drawable/sauropodomorpha"
         android:supportsRtl="true"
         android:theme="@style/Theme.MyRecycleView"
         tools:targetApi="31">
         <activity
-            android:name=".AboutActivity"
+            android:name=".DinoDetailActivity"
             android:exported="false" />
-        <!-- SplashActivity -->
+        <activity
+            android:name=".ListDinoAdapter"
+            android:exported="false" />
+        <activity
+            android:name=".MainDinoActivity"
+            android:exported="false" />
+        <activity
+            android:name=".TyrannosaurusActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AboutActivity"
+            android:exported="false" /> <!-- SplashActivity -->
         <activity
             android:name=".SplashActivity"
             android:exported="true">
@@ -31,6 +43,8 @@
         <activity
             android:name=".DetailActivity"
             android:exported="false" />
+        <activity android:name=".FamiliDinosaurusActivity" />
+        <activity android:name=".SemuaDinosaurusActivity" />
     </application>
 
 </manifest>

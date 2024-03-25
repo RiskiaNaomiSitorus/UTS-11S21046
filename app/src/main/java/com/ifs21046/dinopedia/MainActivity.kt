@@ -6,6 +6,7 @@ import android.content.res.Configuration
 import android.os.Bundle
 import android.view.Menu
 import android.view.MenuItem
+import android.widget.Button
 import androidx.appcompat.app.AppCompatActivity
 import androidx.recyclerview.widget.GridLayoutManager
 import androidx.recyclerview.widget.LinearLayoutManager
@@ -22,6 +23,14 @@ class MainActivity : AppCompatActivity() {
         binding.exogroup.setHasFixedSize(false)
         dataGroup.addAll(getListGroup())
         showRecyclerList()
+
+        val btnStart = findViewById<Button>(R.id.showAllButton)
+        btnStart.setOnClickListener {
+            val intent = Intent(this@MainActivity, MainDinoActivity::class.java)
+            intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP or Intent.FLAG_ACTIVITY_NEW_TASK)
+            startActivity(intent)
+            finish()
+    }
     }
 
     override fun onCreateOptionsMenu(menu: Menu): Boolean {
